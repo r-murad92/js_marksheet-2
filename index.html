@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>marksheet</title>
+</head>
+<body>
+    <script>
+        var number = prompt("Please enter your mark");
+    
+        if(number>89 && number<=100){
+            document.write("Congratulation!! You have got Golden GPA-5.");
+        }else if(number>79 && number<90){
+            document.write(" You have got A+");
+        }else if(number>69 && number<80){
+            document.write(" You have got A-");
+        }else if(number>59 && number<70){
+            document.write(" You have got B");
+        }else if(number>49 && number<60){
+            document.write(" You have got C");
+        }else if(number>39 && number<50){
+            document.write(" You have got D");
+        }else if(number>32 && number<40){
+            document.write(" You have got E");
+        }else if(number<33){
+            document.write(" Sorry! You have Faild.");
+        }else{
+            document.write("Please enter a valid mark.");
+        }
+    </script>
+    
+</body>
+</html>
